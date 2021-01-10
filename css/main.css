@@ -43,8 +43,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 2em;
 }
 
@@ -148,14 +148,7 @@ section {
 }
 
 .skills {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#6f00ff),
-    color-stop(40%, #884ed4),
-    to(#c97af0)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#6f00ff), color-stop(40%, #884ed4), to(#c97af0));
   background: linear-gradient(180deg, #6f00ff 0%, #884ed4 40%, #c97af0 100%);
 }
 
@@ -217,7 +210,7 @@ section {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 40% auto;
-    grid-template-columns: 40% auto;
+        grid-template-columns: 40% auto;
   }
   .left,
   .portfolio-left {
@@ -236,8 +229,8 @@ section {
   .skills-container ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto) [3];
-    grid-template-columns: repeat(3, auto);
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
     gap: 1em;
   }
   .portfolio {
@@ -256,7 +249,7 @@ section {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 66% auto;
-    grid-template-columns: 66% auto;
+        grid-template-columns: 66% auto;
     background: unset;
   }
   .nav-container header {
@@ -279,8 +272,8 @@ section {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 7em;
     float: right;
   }
@@ -291,7 +284,7 @@ section {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 66% auto;
-    grid-template-columns: 66% auto;
+        grid-template-columns: 66% auto;
     background: unset;
     padding: 0;
   }
@@ -317,6 +310,21 @@ section {
   .portfolio img {
     float: right;
     max-width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  header {
+    padding: 2em 2em 2em 10em;
+  }
+  .social-header {
+    padding: 2em 10em 2em 0;
+  }
+  section {
+    padding: 10em 10em 4em 10em;
+  }
+  .hero-content {
+    padding: 6em 8em 6em 10em;
   }
 }
 /*# sourceMappingURL=main.css.map */
