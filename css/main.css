@@ -1,0 +1,19 @@
+:root {
+  /* CSS HEX */
+  --jet: #333333ff;
+  --blue-green: #07a0c3ff;
+  --mikado-yellow: #ffc600ff;
+  --safety-orange-blaze-orange: #fb6107ff;
+  --magnolia: #f8f1ffff;
+  /* CSS HSL */
+  --jet: hsla(0, 0%, 20%, 1);
+  --blue-green: hsla(191, 93%, 40%, 1);
+  --mikado-yellow: hsla(47, 100%, 50%, 1);
+  --safety-orange-blaze-orange: hsla(22, 97%, 51%, 1);
+  --magnolia: hsla(270, 100%, 97%, 1);
+  /* SCSS HEX */
+  /* SCSS HSL */
+  /* SCSS RGB */
+  /* SCSS Gradient */
+}
+/*# sourceMappingURL=main.css.map */
